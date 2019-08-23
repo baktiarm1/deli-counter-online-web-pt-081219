@@ -25,7 +25,7 @@ def now_serving(array)
   counter = 0
    while !array.empty? do 
     puts "Currently serving #{array[0]}."
-    array.shift
+   
     counter+=1
   end
   if array.empty?
