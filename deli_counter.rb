@@ -6,6 +6,6 @@ def line(names)
 else 
  
   names.each_with_index  {|name, index|  new_arr.push( "#{index+1}. #{name}") }
-    return "The line is currently: " + new_arr.join(' ')
+    puts "The line is currently: " + new_arr.join(' ')
   end
 end
