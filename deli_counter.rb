@@ -22,18 +22,15 @@ end
 
 
 def now_serving(array)
-  counter = 0
-   while !array.empty? do 
-    puts "Currently serving #{array[0]}."
+ 
    
-    counter+=1
-     array.shift
+  
   end
   if array.empty?
     puts 'There is nobody waiting to be served!'
   end
   
- 
+  puts "Currently serving #{array[0]}."
 end
 
 
