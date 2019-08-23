@@ -3,5 +3,5 @@ def line (line)
     puts "The line is currently empty."
   end
 else 
-  line.each_with_index{|name, index| puts}
+  line
 end
