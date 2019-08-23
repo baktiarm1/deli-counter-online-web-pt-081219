@@ -9,6 +9,11 @@ else
 end
 
 def take_a_number(array, name)
-  puts name
+  if array.empty?
+    puts "Welecom, #{name}. You are number 1 in line."
+  end
+else
   line(array.push(name))
+end
+  
 end
