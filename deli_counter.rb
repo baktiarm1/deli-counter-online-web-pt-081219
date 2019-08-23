@@ -10,4 +10,5 @@ end
 
 def take_a_number(array, name)
   puts name
+  line(array.push(name))
 end
