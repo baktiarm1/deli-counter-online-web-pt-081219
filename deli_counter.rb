@@ -22,8 +22,14 @@ end
 
 
 def now_serving(array)
+  counter = 0
   if array.empty?
     puts 'There is nobody waiting to be served!'
+  end
+  while !array.empty? do 
+    puts array[counter]
+    array.pop
+    counter+=1
   end
 end
 
