@@ -1,6 +1,6 @@
 def line(names)
    new_arr=[]
-  if line.empty?
+  if names.empty?
     puts "The line is currently empty."
   
 else 
