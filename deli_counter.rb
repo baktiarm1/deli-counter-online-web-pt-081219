@@ -23,10 +23,12 @@ end
 
 def now_serving(array)
   counter = 0
+while !array.empty? do 
   if array.empty?
     puts 'There is nobody waiting to be served!'
   end
-  while !array.empty? do 
+  
+ 
     puts "Currently serving #{array[0]}."
     array.shift
     counter+=1
