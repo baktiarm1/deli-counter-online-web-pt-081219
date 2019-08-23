@@ -5,4 +5,5 @@ def line (line)
 else 
  new_arr=[]
  arr.each_with_index  {|name, index|  new_arr.push( "#{index+1}. #{name}") }
+ return "The line is currently: " + new_arr.join(' ')
 end
