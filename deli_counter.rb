@@ -1,4 +1,5 @@
 def line (people)
   if people.empty?
-    puts 
+    puts "The line is currently empty."
+  end
 end
